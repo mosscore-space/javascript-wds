@@ -63,3 +63,52 @@ console.log(h +" " + i)
 let word = "moss"
 
 console.log("Hello my name is: " + word)
+
+// boolean type variables
+
+let j = true
+let k = false
+
+console.log(typeof j + " " + j)
+console.log(typeof k + " " + k)
+
+console.log(j && k)
+console.log(j || k)
+
+let happy = true
+let fun = true
+
+console.log(happy && fun) // remember my friends dont use + or - on booleans instead use && || type shit
+
+console.log(!happy) // ! means not, like if happy is set as true then ! makes it false
+
+// null type variables
+
+let l = undefined
+console.log(l)
+console.log(typeof l)
+
+let m = null
+console.log(m)
+console.log(typeof m)
+
+// comaparing variable
+
+let n = 1
+let o = 2
+
+console.log(n == o)
+console.log(n != o)
+
+console.log(n < o)
+console.log(n > o)
+
+console.log(n <= o)
+console.log(n >= o)
+
+// garbadge collection_____
+
+// finally something new
+// garbadge collection is the removal of all the variables that is no longer used and removes them from the memory of the computer or system
+
+// he just explained what it is
